@@ -11,6 +11,6 @@ public class Calculator {
     }
 
     public double getTotalCost() {
-        return 1;
+        return floor.getArea() * carpet.getCost();
     }
 }
